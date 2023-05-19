@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Gallery with search/click filter options</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sort-items">
+            <button class="selected" data-name="display-all">Show all</button>
+            <button data-name="tree">Trees</button>
+            <button data-name="house">House</button>
+            <button data-name="animal">Animals</button>
+            <button data-name="car">Cars</button>
+            <input id="search" placeholder="search list" type="search" name="" id="" />
+        </div>
+        <div class="card">
+            <div data-name="car" class="card-body">
+                <img src="./imgs/car-1.jpg" alt="" />
+                <h3 class="card-heading">Car</h3>
+                <p class="card-description">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div data-name="car" class="card-body">
+                <img src="./imgs/car-2.jpg" alt="" />
+                <h3 class="card-heading">Car</h3>
+                <p class="card-description">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div data-name="tree" class="card-body">
+                <img src="./imgs/tree-1.jpg" alt="" />
+                <h3 class="card-heading">Tree</h3>
+                <p class="card-description">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div data-name="tree" class="card-body">
+                <img src="./imgs/tree-2.jpg" alt="" />
+                <h3 class="card-heading">Tree</h3>
+                <p class="card-description">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div data-name="tree" class="card-body">
+                <img src="./imgs/tree-3.jpg" alt="" />
+                <h3 class="card-heading">Tree</h3>
+                <p class="card-description">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div data-name="house" class="card-body">
+                <img src="./imgs/house-1.jpg" alt="" />
+                <h3 class="card-heading">House</h3>
+                <p class="card-description">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div data-name="house" class="card-body">
+                <img src="./imgs/house-2.jpg" alt="" />
+                <h3 class="card-heading">House</h3>
+                <p class="card-description">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div data-name="animal" class="card-body">
+                <img src="./imgs/animal-1.jpg" alt="" />
+                <h3 class="card-heading">Animal</h3>
+                <p class="card-description">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div data-name="animal" class="card-body">
+                <img src="./imgs/animal-2.jpg" alt="" />
+                <h3 class="card-heading">Animal</h3>
+                <p class="card-description">Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

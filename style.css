@@ -1,0 +1,70 @@
+
+body {
+    background: #e0e0e0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+.sort-items {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+button {
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    background: dodgerblue;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0 0 3px grey;
+    border-radius: 5px;
+}
+button.selected {
+    background: gray;
+}
+
+.card {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+.card-body {
+    width: 200px;
+    background: rgb(205, 223, 241);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 5px;
+    box-shadow: 0 0 5px gray;
+    flex-grow: 1;
+}
+.card-body.hide {
+    display: none;
+}
+img {
+    width: 100%;
+}
+input {
+    background: rgb(62, 92, 92);
+    margin-left: 10px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+input::placeholder,
+input {
+    color: #fff;
+}
